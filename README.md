@@ -17,8 +17,11 @@ Statistiques ( Afficher le nombre des restaurants par ville et zone) <br>
 Inscription <br>
 Création de restaurant <br>
 Visualisation de  l’état du restaurant <br>
-L’Ajout des photos de restaurant<br>
-Fonctionnalités partie mobile : (internaute)<br>
+L’Ajout des photos de restaurant
+<br>
+
+# Fonctionnalités partie mobile : (internaute)
+<br>
 La recherche d’ un restaurant par ville, zone, spécialité ou série <br>
 Affichage des restaurants avec possibilité de parcourir les photos <br>
 Visualisation des restaurants dans une Map <br>

@@ -10,7 +10,7 @@ Ce projet a pour but de mettre en place une application web et mobile  permettan
 4- Gestion des séries <br>
 5- Affichage de la liste des restaurants <br>
 6- Validation des restaurants (Ajouter champ etat dans pharmacie : etat = 0 : en attente de validation ; etat = 1 : validée ; etat = 2 : refusé) <br>
-7- Statistiques ( Afficher le nombre des restaurants par ville et zone) <br>
+7- Statistiques ( Affichage du nombre des restaurants par ville et zone) <br>
 
 # Fonctionnalités partie mobile :  (proprietaire)
 <br>

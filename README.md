@@ -3,45 +3,45 @@
 Ce projet a pour but de mettre en place une application web et mobile  permettant de localiser les restaurants selon la ville , la zone , la serie et la specialite  . Il utilise Spring boot    cote back end , reactjs cote front end  (web) et android pour la partie mobile  et  la gestion de la base de données avec le  SGBD Mysql.
 
 # Fonctionnalités partie web : (administrateur)
-
-Gestion des villes 
-Gestion des zones 
-Gestion des spécialités 
-Gestion des séries 
-Affichage de la liste des restaurants 
-Validation des restaurants (Ajouter champ etat dans pharmacie : etat = 0 : en attente de validation ; etat = 1 : validée ; etat = 2 : refusé) 
-Statistiques ( Afficher le nombre des restaurants par ville et zone)
+<br>
+Gestion des villes <br>
+Gestion des zones <br>
+Gestion des spécialités <br>
+Gestion des séries <br>
+Affichage de la liste des restaurants <br>
+Validation des restaurants (Ajouter champ etat dans pharmacie : etat = 0 : en attente de validation ; etat = 1 : validée ; etat = 2 : refusé) <br>
+Statistiques ( Afficher le nombre des restaurants par ville et zone) <br>
 
 # Fonctionnalités partie mobile :  (proprietaire)
-
-Inscription 
-Création de restaurant 
-Visualisation de  l’état du restaurant 
-L’Ajout des photos de restaurant
-Fonctionnalités partie mobile : (internaute)
-La recherche d’ un restaurant par ville, zone, spécialité ou série 
-Affichage des restaurants avec possibilité de parcourir les photos 
-Visualisation des restaurants dans une Map 
-Visualisation la position de l’utilisateur dans la map et mentionner les restaurants les plus proche 
-Affichage de l’itinéraire vers un restaurant
+<br>
+Inscription <br>
+Création de restaurant <br>
+Visualisation de  l’état du restaurant <br>
+L’Ajout des photos de restaurant<br>
+Fonctionnalités partie mobile : (internaute)<br>
+La recherche d’ un restaurant par ville, zone, spécialité ou série <br>
+Affichage des restaurants avec possibilité de parcourir les photos <br>
+Visualisation des restaurants dans une Map <br>
+Visualisation la position de l’utilisateur dans la map et mentionner les restaurants les plus proche <br>
+Affichage de l’itinéraire vers un restaurant<br>
 
 # Mise en place du projet
 
-Pour mettre en place ce projet, vous aurez besoin des éléments suivants :
-1.	Un serveur d'application Java (comme Tomcat)
-2.	Un SGBD (comme MySQL)
-3.	Un éditeur de code (comme Eclipse)
-4.	Le driver JDBC de votre SGBD (à télécharger sur le site officiel de votre SGBD)
-5.	Le framework Hibernate (à télécharger sur le site officiel ou via Maven)
+Pour mettre en place ce projet, vous aurez besoin des éléments suivants :<br>
+1.	Un serveur d'application Java (comme Tomcat)<br>
+2.	Un SGBD (comme MySQL)<br>
+3.	Un éditeur de code (comme Eclipse)<br>
+4.	Le driver JDBC de votre SGBD (à télécharger sur le site officiel de votre SGBD)<br>
+5.	Le framework Hibernate (à télécharger sur le site officiel ou via Maven)<br>
 
 # Déploiement
 
-Pour déployer ce projet sur votre serveur d'application, suivez les étapes suivantes :
-1.	Téléchargez le projet (vous trouvez au dessous les liens de la partie web et mobile) sur votre ordinateur
-2.	Ouvrez-le dans votre éditeur de code
-3.	Configurez la connexion à votre SGBD dans le fichier application.properties pour le back end
-4.	Configurer votre adresse ip sur les fichiers pour assurer l’échange des données
-5.	Exécuter le projet
+Pour déployer ce projet sur votre serveur d'application, suivez les étapes suivantes :<br>
+1.	Téléchargez le projet (vous trouvez au dessous les liens de la partie web et mobile) sur votre ordinateur<br>
+2.	Ouvrez-le dans votre éditeur de code<br>
+3.	Configurez la connexion à votre SGBD dans le fichier application.properties pour le back end<br>
+4.	Configurer votre adresse ip sur les fichiers pour assurer l’échange des données<br>
+5.	Exécuter le projet<br>
 
 # Architecture du projet<br>
 <img src="https://user-images.githubusercontent.com/101591557/211172347-79f714be-e619-4090-ac21-0b312c986e06.png" width="400" hieght="500"/>

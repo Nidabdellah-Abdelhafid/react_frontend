@@ -43,9 +43,9 @@ Pour déployer ce projet sur votre serveur d'application, suivez les étapes sui
 4.	Configurer votre adresse ip sur les fichiers pour assurer l’échange des données
 5.	Exécuter le projet
 
-#Architecture du projet
-
-#Lien github vers les parties mobile et le backend
+#Architecture du projet<br>
+<img src="https://user-images.githubusercontent.com/101591557/211172347-79f714be-e619-4090-ac21-0b312c986e06.png" width="400" hieght="500"/>
+<br>#Lien github vers les parties mobile et le backend
 
 mobile : https://github.com/Nidabdellah-Abdelhafid/restaurant_mobil.git
 backend : https://github.com/Nidabdellah-Abdelhafid/restaurant_backend.git

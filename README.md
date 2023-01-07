@@ -4,29 +4,29 @@ Ce projet a pour but de mettre en place une application web et mobile  permettan
 
 # Fonctionnalités partie web : (administrateur)
 <br>
-Gestion des villes <br>
-Gestion des zones <br>
-Gestion des spécialités <br>
-Gestion des séries <br>
-Affichage de la liste des restaurants <br>
-Validation des restaurants (Ajouter champ etat dans pharmacie : etat = 0 : en attente de validation ; etat = 1 : validée ; etat = 2 : refusé) <br>
-Statistiques ( Afficher le nombre des restaurants par ville et zone) <br>
+1- Gestion des villes <br>
+2- Gestion des zones <br>
+3- Gestion des spécialités <br>
+4- Gestion des séries <br>
+5- Affichage de la liste des restaurants <br>
+6- Validation des restaurants (Ajouter champ etat dans pharmacie : etat = 0 : en attente de validation ; etat = 1 : validée ; etat = 2 : refusé) <br>
+7- Statistiques ( Afficher le nombre des restaurants par ville et zone) <br>
 
 # Fonctionnalités partie mobile :  (proprietaire)
 <br>
-Inscription <br>
-Création de restaurant <br>
-Visualisation de  l’état du restaurant <br>
-L’Ajout des photos de restaurant
+1- Inscription <br>
+2- Création de restaurant <br>
+3- Visualisation de  l’état du restaurant <br>
+4- L’Ajout des photos de restaurant
 <br>
 
 # Fonctionnalités partie mobile : (internaute)
 <br>
-La recherche d’ un restaurant par ville, zone, spécialité ou série <br>
-Affichage des restaurants avec possibilité de parcourir les photos <br>
-Visualisation des restaurants dans une Map <br>
-Visualisation la position de l’utilisateur dans la map et mentionner les restaurants les plus proche <br>
-Affichage de l’itinéraire vers un restaurant<br>
+1- La recherche d’ un restaurant par ville, zone, spécialité ou série <br>
+2- Affichage des restaurants avec possibilité de parcourir les photos <br>
+3- Visualisation des restaurants dans une Map <br>
+4- Visualisation la position de l’utilisateur dans la map et mentionner les restaurants les plus proche <br>
+5- Affichage de l’itinéraire vers un restaurant<br>
 
 # Mise en place du projet
 

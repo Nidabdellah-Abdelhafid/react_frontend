@@ -48,14 +48,14 @@ Pour déployer ce projet sur votre serveur d'application, suivez les étapes sui
 <br>#Lien github vers les parties mobile et le backend
 
 mobile : https://github.com/Nidabdellah-Abdelhafid/restaurant_mobil.git
-backend : https://github.com/Nidabdellah-Abdelhafid/restaurant_backend.git
+<br>backend : https://github.com/Nidabdellah-Abdelhafid/restaurant_backend.git
 
 # Official Documentation
 
 La documentation relative au cadre se trouve sur le site Web du :
-https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#getting-help
-https://developer.android.com/docs
-https://devdocs.io/react/
+<br>https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#getting-help
+<br>https://developer.android.com/docs
+<br>https://devdocs.io/react/
 
 # Auteur
 Ce projet a été réalisé par :

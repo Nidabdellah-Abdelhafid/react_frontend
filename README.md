@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+#Localisation des restaurants :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet a pour but de mettre en place une application web et mobile  permettant de localiser les restaurants selon la ville , la zone , la serie et la specialite  . Il utilise Spring boot    cote back end , reactjs cote front end  (web) et android pour la partie mobile  et  la gestion de la base de données avec le  SGBD Mysql.
 
-## Available Scripts
+#Fonctionnalités partie web : (administrateur)
 
-In the project directory, you can run:
+Gestion des villes 
+Gestion des zones 
+Gestion des spécialités 
+Gestion des séries 
+Affichage de la liste des restaurants 
+Validation des restaurants (Ajouter champ etat dans pharmacie : etat = 0 : en attente de validation ; etat = 1 : validée ; etat = 2 : refusé) 
+Statistiques ( Afficher le nombre des restaurants par ville et zone)
 
-### `npm start`
+#Fonctionnalités partie mobile :  (proprietaire)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Inscription 
+Création de restaurant 
+Visualisation de  l’état du restaurant 
+L’Ajout des photos de restaurant
+Fonctionnalités partie mobile : (internaute)
+La recherche d’ un restaurant par ville, zone, spécialité ou série 
+Affichage des restaurants avec possibilité de parcourir les photos 
+Visualisation des restaurants dans une Map 
+Visualisation la position de l’utilisateur dans la map et mentionner les restaurants les plus proche 
+Affichage de l’itinéraire vers un restaurant
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Mise en place du projet
 
-### `npm test`
+Pour mettre en place ce projet, vous aurez besoin des éléments suivants :
+1.	Un serveur d'application Java (comme Tomcat)
+2.	Un SGBD (comme MySQL)
+3.	Un éditeur de code (comme Eclipse)
+4.	Le driver JDBC de votre SGBD (à télécharger sur le site officiel de votre SGBD)
+5.	Le framework Hibernate (à télécharger sur le site officiel ou via Maven)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#Déploiement
 
-### `npm run build`
+Pour déployer ce projet sur votre serveur d'application, suivez les étapes suivantes :
+1.	Téléchargez le projet (vous trouvez au dessous les liens de la partie web et mobile) sur votre ordinateur
+2.	Ouvrez-le dans votre éditeur de code
+3.	Configurez la connexion à votre SGBD dans le fichier application.properties pour le back end
+4.	Configurer votre adresse ip sur les fichiers pour assurer l’échange des données
+5.	Exécuter le projet
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#Architecture du projet
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#Lien github vers les parties mobile et le backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+mobile : https://github.com/Nidabdellah-Abdelhafid/restaurant_mobil.git
+backend : https://github.com/Nidabdellah-Abdelhafid/restaurant_backend.git
 
-### `npm run eject`
+#Official Documentation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+La documentation relative au cadre se trouve sur le site Web du :
+https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#getting-help
+https://developer.android.com/docs
+https://devdocs.io/react/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#Auteur
+Ce projet a été réalisé par :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+NidAbdellah Abdelhafid<br>
+Mouket Fatima zahra <br>
+Madili Sanaa
